@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+html,body, #root{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+
+.main-grid{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 0.7fr 3fr;
+    grid-template-rows: 0.4fr 3fr;
+    grid-template-areas: 
+    "header    header"
+    "sidebar    main"
+    ;
+}
+
+.main{
+    grid-area: main;
+    background-color: #B8CFCE;
+}
+
+.header{
+    grid-area: header;
+    background-color: #333446;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background-color: #7F8CAA;
+}
