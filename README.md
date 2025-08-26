@@ -18,7 +18,7 @@ A comprehensive file management system for AWS S3 with a modern **React frontend
 #### 1️⃣ Get the Code
 ```bash
 git clone https://github.com/Nisheeta-Sigmoid/S3-Bucket-Manager.git
-cd S3-Bucket-Manager/s3-file-manager
+cd S3-Bucket-Manager-main/s3-file-manager
 ```
 
 #### 2️⃣ Install Dependencies
